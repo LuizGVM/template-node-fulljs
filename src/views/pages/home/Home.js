@@ -4,7 +4,7 @@ let Home = {
   render: async () => {
       let view = `
           <div>
-            <h1>Home</div>
+            <h1>Início</div>
           </div>
       `;
 
