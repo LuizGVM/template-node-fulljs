@@ -1,3 +1,6 @@
+import homeSectionOne from '../../components/sections/homeSectionOne';
+import homeSectionTwo from '../../components/sections/homeSectionTwo'
+
 let Home = {
   is_private: false,
 
@@ -5,6 +8,8 @@ let Home = {
       let view = `
           <div>
             <h1>Início</div>
+            ${homeSectionOne}
+            ${homeSectionTwo}
           </div>
       `;
 
