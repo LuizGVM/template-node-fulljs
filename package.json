@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sass --watch src/assets/sass/style.scss:src/css/style.css & webpack serve --open --config webpack.dev.js",
+    "sass": "sass --watch src/assets/sass/style.scss:src/css/style.css",
+    "webpack": "webpack serve --open --config webpack.dev.js",
     "build": "node-sass src/assets/sass/style.scss > src/css/style.css && webpack --config webpack.prod.js"
   },
   "keywords": [],
@@ -14,6 +15,9 @@
   "dependencies": {
     "axios": "^0.21.1",
     "clean-webpack-plugin": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-less": "^5.0.0",
+    "gulp-sass": "^5.0.0",
     "node-sass": "^5.0.0",
     "sweetalert2": "^10.15.5",
     "webpack": "^5.21.1",
