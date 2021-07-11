@@ -19,6 +19,9 @@ body{
 
 h1, h2, h3, h4, h5, p, b, span{
   font-family: $fontFamilyDefault;
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
 }
 
 .container{
@@ -33,6 +36,7 @@ h1, h2, h3, h4, h5, p, b, span{
 }
 
 .foot-container{
+  margin-top: -150px;
   background-color: transparent;
   font-family: $fontFamilyDefault;
   display: flex;

@@ -32,14 +32,6 @@
     height: 100vh;
     display: flex;
 
-    & .foot-container{
-        font-family: 'Roboto', sans-serift;
-        background-color: transparent;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
     & .block-section--two{
         display: flex;
         align-items: center;
@@ -54,5 +46,14 @@
                 margin: 90px 0px 0px 90px;
             }
         }    
+    }
+
+    & .foot-container{
+        margin-top: -150px;
+        font-family: 'Roboto', sans-serift;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }

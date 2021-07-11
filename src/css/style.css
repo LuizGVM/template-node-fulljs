@@ -16,6 +16,9 @@ body {
 
 h1, h2, h3, h4, h5, p, b, span {
   font-family: "Roboto", sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  color: white;
 }
 
 .container {
@@ -30,6 +33,7 @@ h1, h2, h3, h4, h5, p, b, span {
 }
 
 .foot-container {
+  margin-top: -150px;
   background-color: transparent;
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -69,13 +73,6 @@ h1, h2, h3, h4, h5, p, b, span {
   height: 100vh;
   display: flex;
 }
-.background--two .foot-container {
-  font-family: "Roboto", sans-serift;
-  background-color: transparent;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .background--two .block-section--two {
   display: flex;
   align-items: center;
@@ -88,6 +85,14 @@ h1, h2, h3, h4, h5, p, b, span {
 }
 .background--two .block-section--two .text-block--two img {
   margin: 90px 0px 0px 90px;
+}
+.background--two .foot-container {
+  margin-top: -150px;
+  font-family: "Roboto", sans-serift;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
