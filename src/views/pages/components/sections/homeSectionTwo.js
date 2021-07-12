@@ -6,7 +6,7 @@ let HomeSectionTwo = `
 <section id="section-two" class="section background--two" style="background-image: url(${BackGroundTwo})">
     <div class="container block-section">
         <div class="block-section--two">    
-            <img src="${Vader}" alt="Vader" width="300px" height="auto">
+            <img src="${Vader}" alt="Vader">
             <div class="text-block--two">
                 <p>Darth Vader foi um dos Jedi mais poderosos e, depois que foi para o lado negro, se tornou um dos Siths mais poderosos</p>
             </div>

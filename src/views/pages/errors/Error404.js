@@ -10,8 +10,9 @@ let Error404 = {
     }
 }
 let error = `
-<div>
-    erro 404!
+<div class="error-default">
+    <h1>Erro 404!</h1>
+    <h2>Caro padawan, esse conteúdo não existe. Volte a página anterior</h2>
 </div>
 `
 
