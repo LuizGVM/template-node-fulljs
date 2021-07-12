@@ -23,6 +23,6 @@ Para instalar o node [clique aqui](https://nodejs.org/en/)
 `|src -> view\pages: contém as páginas da aplicação`
 `|src -> view\pages -> components: contém os componentes das páginas`
 
-Veja o projeto online [clique aqui](https://nosso.site)
+Veja o projeto online [clique aqui](https://template-node-fulljs-ppmjl2k5l-luizgvm.vercel.app/)
 
 ## Luiz Guilherme de Vasconcelos Moreira
