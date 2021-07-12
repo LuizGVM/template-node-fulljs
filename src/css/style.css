@@ -1,36 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 html {
-  scroll-behavior: smooth;
-}
+  scroll-behavior: smooth; }
 
 body {
   background: #000;
   color: #fff;
-  font-family: "Roboto", sans-serif;
-}
+  font-family: "Roboto", sans-serif; }
 
 h1, h2, h3, h4, h5, p, b, span {
   font-family: "Roboto", sans-serif;
   font-size: larger;
   font-weight: bold;
-  color: white;
-}
+  color: white; }
 
 .container {
   width: 75%;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .main-lift {
   position: fixed;
   left: 10px;
-  bottom: 10px;
-}
+  bottom: 10px; }
 
 .foot-container {
   margin-top: -150px;
@@ -38,12 +32,10 @@ h1, h2, h3, h4, h5, p, b, span {
   font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
+  align-items: center; }
 
 .section {
-  width: 100%;
-}
+  width: 100%; }
 
 .background--one {
   background-size: cover;
@@ -52,81 +44,63 @@ h1, h2, h3, h4, h5, p, b, span {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-.background--one .block-section--one {
-  display: block;
-  text-align: center;
-  width: 100%;
-}
-.background--one .block-section--one h1 {
-  font-weight: bold;
-  font-size: 30px;
-  margin-bottom: 20px;
-  color: yellow;
-}
+  justify-content: center; }
+  .background--one .block-section--one {
+    display: block;
+    text-align: center;
+    width: 100%; }
+    .background--one .block-section--one h1 {
+      font-weight: bold;
+      font-size: 30px;
+      margin-bottom: 20px;
+      color: yellow; }
 
 .background--two {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   height: 100vh;
-  display: flex;
-}
-.background--two .block-section--two {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-.background--two .block-section--two .text-block--two {
-  width: 25%;
-  height: 25%;
-}
-.background--two .block-section--two .text-block--two p {
-  margin-left: 50px;
-  height: 100%;
-  text-align: left;
-}
-.background--two .block-section--two img {
-  max-width: 300px;
-  height: auto;
-  margin: 0px 0px 0px 60px;
-}
-.background--two .foot-container {
-  margin-top: -150px;
-  font-family: "Roboto", sans-serift;
-  background-color: transparent;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  display: flex; }
+  .background--two .block-section--two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; }
+    .background--two .block-section--two .text-block--two {
+      width: 25%;
+      height: 25%; }
+      .background--two .block-section--two .text-block--two p {
+        margin-left: 50px;
+        height: 100%;
+        text-align: left; }
+    .background--two .block-section--two img {
+      max-width: 300px;
+      height: auto;
+      margin: 0px 0px 0px 60px; }
+  .background--two .foot-container {
+    margin-top: -150px;
+    font-family: 'Roboto', sans-serift;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
 
 @media (max-width: 600px) {
   .background--two {
-    height: 1400px;
-  }
-  .background--two .block-section--two {
-    display: grid;
-    margin-top: 20px;
-    height: 90%;
-  }
-  .background--two .block-section--two .text-block--two {
-    margin: 0px 0px;
-    width: auto;
-  }
-  .background--two .block-section--two .text-block--two p {
-    text-align: center;
-    margin-left: 0px;
-    margin-top: -90px;
-  }
-  .background--two .block-section--two img {
-    max-width: 60%;
-    margin: 0 auto;
-  }
-  .background--two .foot-container {
-    margin-top: -150px;
-  }
-}
-
-/*# sourceMappingURL=style.css.map */
+    height: 1400px; }
+    .background--two .block-section--two {
+      display: grid;
+      margin-top: 20px;
+      height: 90%; }
+      .background--two .block-section--two .text-block--two {
+        margin: 0px 0px;
+        width: auto; }
+        .background--two .block-section--two .text-block--two p {
+          text-align: center;
+          margin-left: 0px;
+          margin-top: -90px; }
+      .background--two .block-section--two img {
+        max-width: 60%;
+        margin: 0 auto; }
+    .background--two .foot-container {
+      margin-top: -150px; } }
