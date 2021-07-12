@@ -14,4 +14,15 @@ Para iniciar em modo de desenvolvimento:
 
 Para instalar o node [clique aqui](https://nodejs.org/en/)
 
-## Professor Douglas Morais
+## Arquitetura de componentes
+
+`|src -> assets\sass: arquivos de estilização SASS`
+`|src -> css: arquivos de estilização CSS`
+`|src -> img: imagens da página`
+`|src -> service: funcionalidades de transitar entre as páginas`
+`|src -> view\pages: contém as páginas da aplicação`
+`|src -> view\pages -> components: contém os componentes das páginas`
+
+Veja o projeto online [clique aqui](https://nosso.site)
+
+## Luiz Guilherme de Vasconcelos Moreira
